@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
     fun onButtonClick(view: View) {
         val textView: TextView = findViewById(R.id.hello_text)
         val editTextCon = getEditText()
-
+        textView.text = "Hello ${editTextCon} !"
     }
 
 
